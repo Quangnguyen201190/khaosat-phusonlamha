@@ -2,15 +2,55 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Đang chuyển...</title>
-</head>
-<body>
-    <h2>Đang chuyển đến phiếu khảo sát...</h2>
+    <title>Khảo sát sự hài lòng</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F37XD3Q3PL"></script>
 
     <script>
-        setTimeout(function () {
-            window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSe222lniEGNspEaFHASb7-v_7E2zUzk_bJMAmT0-NbiiAEFeA/viewform";
-        }, 1000);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-F37XD3Q3PL');
     </script>
+
+    <style>
+        body{
+            font-family:Arial;
+            text-align:center;
+            margin-top:100px;
+            background:#f5f5f5;
+        }
+
+        h1{
+            color:#0066cc;
+        }
+
+        p{
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>UBND XÃ PHÚ SƠN</h1>
+
+<h2>PHIẾU KHẢO SÁT SỰ HÀI LÒNG</h2>
+
+<p>Đang chuyển đến Google Forms...</p>
+
+<script>
+
+setTimeout(function(){
+
+window.location.href="https://docs.google.com/forms/d/e/1FAIpQLSe222lniEGNspEaFHASb7-v_7E2zUzk_bJMAmT0-NbiiAEFeA/viewform";
+
+},1500);
+
+</script>
+
 </body>
+
 </html>
